@@ -17,4 +17,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/rafaelnpf/dev-mobile-crud/blob/main/LICENSE) para mais detalhes.
 
 ---
-Feito por [Rafael Nunes.](https://github.com/rafaelnpf)
+Feito por [Rafael Nunes.](https://github.com/rafaelnpf), 
+[Brenda Soares.](https://github.com/brendasferreira),
+
+
