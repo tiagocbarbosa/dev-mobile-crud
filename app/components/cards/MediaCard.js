@@ -13,10 +13,14 @@ import ShareIcon from '@material-ui/icons/Share';
 const useStyles = makeStyles({
     root: {
         maxWidth: 345,
+        marginTop: 5,
+        marginBottom: 5,
+        marginLeft: 'auto',
+        marginRight: 'auto',
     },
-    media: {
-        height: 140,
-    },
+    // media: {
+    //     height: 140,
+    // },
 })
 
 export default function MediaCard(props) {
