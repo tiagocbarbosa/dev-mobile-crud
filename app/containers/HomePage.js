@@ -1,5 +1,6 @@
 import React from 'react'
 import { SafeAreaView, View, FlatList, StyleSheet, Text, StatusBar } from 'react-native'
+import AppBar from '../components/bars/AppBar.js'
 import MediaCard from '../components/cards/MediaCard.js'
 
 const DATA = [
@@ -51,10 +52,12 @@ export default function HomePage() {
 
     return (
         <SafeAreaView style={styles.container}>
+            <AppBar />
             <FlatList
                 data={DATA}
                 renderItem={renderItem}
                 keyExtractor={item => item.id}
+                style={{marginTop: 65,}}
             />
         </SafeAreaView>
     )
