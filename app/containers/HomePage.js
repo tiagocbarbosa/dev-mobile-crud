@@ -18,13 +18,28 @@ const DATA = [
         title: 'Chevrolet Onix',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus posuere lacus, sit amet convallis metus tempus quis. Nunc a mi porttitor.',
     },
+    {
+        id: '58694a0f-3da1-471f-bd96-145571e29d73',
+        title: 'Hyundai HB20',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus posuere lacus, sit amet convallis metus tempus quis. Nunc a mi porttitor.',
+    },
+    {
+        id: '58694a0f-3da1-471f-bd96-145571e29d74',
+        title: 'Ford Ka',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus posuere lacus, sit amet convallis metus tempus quis. Nunc a mi porttitor.',
+    },
+    {
+        id: '58694a0f-3da1-471f-bd96-145571e29d75',
+        title: 'Fiat Doblo',
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse finibus posuere lacus, sit amet convallis metus tempus quis. Nunc a mi porttitor.',
+    },
 ]
 
-const Item = ({ title }) => (
-    <View style={styles.item}>
-        <Text style={styles.title}>{title}</Text>
-    </View>
-)
+// const Item = ({ title }) => (
+//     <View style={styles.item}>
+//         <Text style={styles.title}>{title}</Text>
+//     </View>
+// )
 
 export default function HomePage() {
     //   const renderItem = ({ item }) => (
@@ -40,9 +55,7 @@ export default function HomePage() {
                 data={DATA}
                 renderItem={renderItem}
                 keyExtractor={item => item.id}
-            >
-
-            </FlatList>
+            />
         </SafeAreaView>
     )
 }
@@ -53,14 +66,14 @@ const styles = StyleSheet.create({
         marginTop: StatusBar.currentHeight || 0,
     },
 
-    item: {
-        backgroundColor: '#f9c2ff',
-        padding: 20,
-        marginVertical: 8,
-        marginHorizontal: 16,
-    },
+    // item: {
+    //     backgroundColor: '#f9c2ff',
+    //     padding: 20,
+    //     marginVertical: 8,
+    //     marginHorizontal: 16,
+    // },
 
-    title: {
-        fontSize: 32,
-    },
+    // title: {
+    //     fontSize: 32,
+    // },
 })
