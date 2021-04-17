@@ -14,3 +14,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.c
 Feito por [Tiago Barbosa](https://github.com/tiagocbarbosa), 
 [Rafael Nunes](https://github.com/rafaelnpf), 
 [Brenda Soares](https://github.com/brendasferreira).
+[Jacqueline Orge](https://github.com/jacquelineorge).
